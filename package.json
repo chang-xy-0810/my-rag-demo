@@ -1,0 +1,37 @@
+{
+  "name": "my-rag-demo",
+  "version": "1.0.0",
+  "description": "一个基于rag的小demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chang-xy-0810/my-rag-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chang-xy-0810/my-rag-demo/issues"
+  },
+  "homepage": "https://github.com/chang-xy-0810/my-rag-demo#readme",
+  "dependencies": {
+    "@langchain/classic": "^1.0.57",
+    "@langchain/google-genai": "^2.3.4",
+    "@langchain/openai": "^1.8.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "langchain": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
